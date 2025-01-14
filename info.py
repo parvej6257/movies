@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1750291898').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Parvej_117") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002321787956'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '-1001716397533')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/TP_Movies_request)
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1002489446543').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
